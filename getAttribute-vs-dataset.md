@@ -17,7 +17,7 @@
     // test test
     // [object DOMStringMap] [object Function]
 ```
-使用dataset操作data 要比使用getAttribute稍微慢些,但是如果我们只是处理少量的data数据，这点速度上差异造成的影响是基本可以忽略。使用dataset操作自定义
+使用dataset操作data，具有一些兼容性问题，但是主流已经没问题了，还有其比使用getAttribute稍微慢些,但是如果我们只是处理少量的data数据，这点速度上差异造成的影响是基本可以忽略。使用dataset操作自定义
 属性要比getAttribute的形式要少很多让人头疼的麻烦（例如：要获取多个值），并且更具有可读性。
 
 以上面例子：
