@@ -15,7 +15,10 @@ zsh: operation not permitted: plugname
 
 `
 ➜  /Users/path git:(master) xattr -l /usr/local/bin/plugname
+
 com.apple.quarantine: 0086;583e9a2b;WeChat;
+
 ➜  /Users/path git:(master) xattr -d com.apple.quarantine /usr/local/bin/plugname
+
 `
 
