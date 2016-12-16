@@ -9,8 +9,10 @@ npm install react-dropzone-component --save
 
 ###配置使用
 > 我这里主要用到的就是上传进度条显示，filename，success-mask，error-mark，size都要隐藏掉，添加窗，删除图标按钮，以及传到父级调用
+
 ####Uploaded.js
-`
+
+```
 import styles from './Upload'
 import { Component, PropTypes } from 'react'
 import DropzoneComponent from 'react-dropzone-component'
@@ -83,12 +85,12 @@ export default class Upload extends Component {
     }
 }
 
-`
+```
 
 
 ####Upload.scss：
 
-`
+```
 @import 'scss/const';
 .WalaDetail {
     font-size: .7rem;
@@ -405,11 +407,11 @@ export default class Upload extends Component {
     }
 }
 
-`
+```
 
 ####父级调用:(**注意cmpnts是我存放插件的目录**)
 
-`
+```
 import {Uploaded} from 'cmpnts'
 let upPicture = []
 constructor (props) {
@@ -431,7 +433,7 @@ constructor (props) {
     } // 这里是操作回调接受函数，最后得到的upPicture就是需要传给接口上传图片路径接口
     
 <Uploaded WalaWriteUpList={self.WalaWriteUpList} />
-`
+```
 
 更多用法：
 
