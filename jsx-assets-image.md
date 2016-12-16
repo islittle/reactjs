@@ -13,12 +13,12 @@
 
 import LogoImg from 'assets/image/logo.png'
 
-<img src={LogoImg}/>
+\<img src={LogoImg}/\>
 
 
 // 第二种方法
 
-<img src={require('assets/image/logo.png')} />
+\<img src={require('assets/image/logo.png')} /\>
 
 `
 
