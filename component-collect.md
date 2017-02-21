@@ -4,6 +4,6 @@
 
 *转载需加来源*
 
-#轮播图组件
+###轮播图组件
 
 [https://github.com/akiran/react-slick](https://github.com/akiran/react-slick)
